@@ -1,1 +1,1 @@
-# madOdevleri
+# Mobile Application Class Homeworks
