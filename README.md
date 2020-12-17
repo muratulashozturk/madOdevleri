@@ -1,1 +1,1 @@
-# Mobile Application Class Homeworks
+# Mobile Application Development Class Homeworks
