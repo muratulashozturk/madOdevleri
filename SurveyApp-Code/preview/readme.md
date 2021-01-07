@@ -1,5 +1,5 @@
 # App Preview
 
-Question 1
-![Alt text](/preview/Question 1.png?raw=true "Question 1")
+![Question 1](/../master/SurveyApp-Code/preview/Question 1.png?raw=true "Q1")
+
 
