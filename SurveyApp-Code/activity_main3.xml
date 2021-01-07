@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/txtQuestion3"
+        android:layout_width="373dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/baloo"
+        android:text="Dışarıda yemek yiyeceğinizde ne sıklıkla rezervasyon yaptırırsınız? "
+        android:textAlignment="center"
+        android:textColor="#3A0236"
+        android:textSize="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="394dp"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/surveyapp_logo_black_header_alt" />
+
+    <RadioGroup
+        android:id="@+id/evet_hayir_radio_group"
+        android:layout_width="396dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="116dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/btnNext3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQuestion3"
+        app:layout_constraintVertical_bias="0.104">
+
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:fontFamily="@font/exo_2_bold"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="3dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="3dp"
+            android:text="Her zaman"
+            android:textColor="@drawable/radio_flat_text_selector"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:fontFamily="@font/exo_2_bold"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="3dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="3dp"
+            android:text="Bazen"
+            android:textColor="@drawable/radio_flat_text_selector"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:fontFamily="@font/exo_2_bold"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingTop="3dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="3dp"
+            android:text="Hiçbir Zaman"
+            android:textColor="@drawable/radio_flat_text_selector"
+            android:textSize="25dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext3"
+        android:layout_width="393dp"
+        android:layout_height="61dp"
+        android:background="@drawable/custom_button"
+        android:text="SONRAKİ SORU"
+        android:textColor="#FFF"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtQuestion3"
+        app:layout_constraintVertical_bias="0.877" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
